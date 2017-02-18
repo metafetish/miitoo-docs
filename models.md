@@ -9,8 +9,28 @@ with vibration and pressure motors.
 
 ## Bluetooth Information
 
-All Kiiroo toys communicate over Bluetooth LE, using a single
-characteristic for sending and other for receiving.
+All Kiiroo toys communicate over both Bluetooth 2.0, using SPP, and
+Bluetooth LE, using a single characteristic for sending and other for
+receiving.
+
+### Bluetooth 2.0 Connections
+
+When pairing using Bluetooth 2.0, serial ports on OS X and linux
+machines will register for the Pearl toy as:
+
+```
+/dev/tty.PEARL-DevB 
+```
+
+and for the Onyx toy as:
+
+```
+/dev/tty.ONYX-DevB
+```
+
+### Bluetooth LE Connections
+
+When using Bluetooth LE to talk to Kiiroo toys, the following UUIDs are used.
 
 Service UUID:
 ```
