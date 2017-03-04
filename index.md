@@ -7,6 +7,7 @@
 
    models
    protocol
+   server
  ```
 
 This document contains information about Kiiroo sex toy hardware, and
