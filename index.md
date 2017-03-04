@@ -1,5 +1,7 @@
 # Kiiroo Hardware and Protocol Documentation
 
+## Contents
+
 ```eval_rst
 .. toctree::
    :maxdepth: 2
@@ -8,6 +10,8 @@
    protocol
    server
  ```
+
+## Introduction
 
 This document contains information about Kiiroo sex toy hardware, and
 the common bluetooth protocol used in all Kiiroo toys. This
