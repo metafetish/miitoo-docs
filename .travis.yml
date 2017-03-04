@@ -1,5 +1,12 @@
 language: python - "3.5"
 
+addons:
+  apt:
+    sources:
+      - deadsnakes # source required so it finds the package definition below
+    packages:
+      - python3.5
+
 install:
     - pip install --user -r requirements.txt
     - pip install --user travis-sphinx
