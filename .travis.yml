@@ -1,0 +1,11 @@
+language: python - "2.7"
+
+install:
+    - conda install --yes python="2.7" sphinx
+    - pip install --user sphinx travis-sphinx
+
+script:
+    - travis-sphinx build
+
+after_success:
+    - travis-sphinx deploy
