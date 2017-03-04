@@ -1,11 +1,6 @@
-language: python - "3.5"
-
-addons:
-  apt:
-    sources:
-      - deadsnakes # source required so it finds the package definition below
-    packages:
-      - python3.5
+language: python
+python: 
+  - "3.6"
 
 install:
     - pip install --user -r requirements.txt
