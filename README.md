@@ -1,5 +1,7 @@
 # miiyoo-docs
 
+[![https://readthedocs.org/projects/miiyoo/badge/?version=latest]]
+
 Sphinx-formatted documentation for Kiiroo Hardware and Communication Protocol.
 
 Formatted documentation posted at:
