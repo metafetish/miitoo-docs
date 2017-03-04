@@ -1,6 +1,6 @@
 # miiyoo-docs
 
-![](https://readthedocs.org/projects/miiyoo/badge/?version=latest)
+![](https://api.travis-ci.org/metafetish/miiyoo-docs.svg?branch=master) ![](https://readthedocs.org/projects/miiyoo/badge/?version=latest)
 
 Sphinx-formatted documentation for Kiiroo Hardware and Communication Protocol.
 
