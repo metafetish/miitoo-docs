@@ -3,6 +3,7 @@
 ```eval_rst
 .. toctree::
    :maxdepth: 2
+   :rawcaption: Contents:
    :caption: Contents:
 
    models
